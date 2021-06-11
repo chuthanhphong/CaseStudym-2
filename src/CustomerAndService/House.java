@@ -51,7 +51,7 @@ public class House extends Service {
                 + ",\tdiện tích sử dụng = " + super.getArea() + "m2"
                 + ",\tchi phí thuê = " + super.getPrice() + "/h"
                 + ",\tsố người tối đa = " + super.getMaxpeople()
-                + "\n\tkiểu thuê = '" + super.getRenType() + "'"
+                + ",\tkiểu thuê = '" + super.getRenType() + "'"
                 + ",\tthời gian thuê = " + super.getRentime() + " " + super.getRenType()
                 + ",\ttiêu chuẩn phòng: " + this.getKinhOfRoom()
                 + ",\tcác tiện ích khác: " + this.getOtherService()

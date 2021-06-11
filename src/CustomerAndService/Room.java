@@ -55,9 +55,9 @@ public class Room extends Service {
                 + ",\tdiện tích sử dụng = " + super.getArea() + "m2"
                 + ",\tchi phí thuê = " + super.getPrice() + "/h"
                 + ",\tsố người tối đa = " + super.getMaxpeople()
-                + "\n\tkiểu thuê = '" + super.getRenType() + "'"
+                + "\tkiểu thuê = '" + super.getRenType() + "'"
                 + ",\tthời gian thuê = " + super.getRentime() + " " + super.getRenType()
-                + ",\n\tdịch vụ đi kèm: " + this.getNameofService()
+                + ",\tdịch vụ đi kèm: " + this.getNameofService()
                 + ",\tđơn vị: " + this.getUnit()+
                 ",\tgiá tiền: " + this.getPriceService();
         System.out.println(str);
