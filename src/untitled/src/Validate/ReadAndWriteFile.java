@@ -95,7 +95,7 @@ public class ReadAndWriteFile<E> {
         try {
             FileReader fileReader = new FileReader(PATH);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
-            String line = "";
+            String line = "Họ và Tên|Ngày Sinh | Giới tính |Số CMND|Số Điện Thoại|Email|Loại Khách Hàng|Địa Chỉ|Dịch Vụ";
             while ((line = bufferedReader.readLine()) != null) {
                 String[] words = line.split("\\|");
                 if (words[8].equals("null")) {

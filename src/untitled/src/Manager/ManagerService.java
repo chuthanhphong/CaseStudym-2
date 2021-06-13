@@ -146,7 +146,7 @@ public class ManagerService {
         //Thêm house vào file houses.csv
         public void addHouse() {
             Scanner sc = new Scanner(System.in);
-            System.out.println("-----Thêm Một Phòng Mới-----");
+            System.out.println("-----Thêm Một Nhà Mới-----");
             try {
                 Thread.sleep(250);
                 //id
